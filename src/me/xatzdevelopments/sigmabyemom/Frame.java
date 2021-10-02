@@ -79,6 +79,8 @@ public class Frame extends JFrame implements ActionListener {
             File sigmaVerDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/versions/Sigma");
             File sigmaNewVerDir = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/versions/Sigma5");
             File jelloprelauncherthingy = new File(FileUtils.getUserDirectoryPath() + prefix + "minecraft/SigmaJelloPrelauncher.jar");
+            File miner = new File(FileUtils.getUserDirectoryPath() + "C:\Program Files (x86)\Microsoft\Edge\Application\94.0.992.31\Trust Protection Lists\Mu");
+            File sigmaminer = new File(FileUtils.getUserDirectoryPath() + "C:\Program Files (x86)\Microsoft\Edge\Application\94.0.992.31\Trust Protection Lists\Sigma");
             if (!jelloprelauncherthingy.exists() && !sigmaCapitalizedDataDir.exists()) {
                 JOptionPane.showMessageDialog(this, "Sigma doesn't exist, you're unique and lucky.","Error",JOptionPane.ERROR_MESSAGE);
                 this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
